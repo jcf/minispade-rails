@@ -1,7 +1,6 @@
 require 'sprockets'
 require 'sprockets/engines'
 
-require "minispade-rails/config"
 require 'minispade-rails/directive_processor'
 require 'minispade-rails/compiler'
 require 'minispade-rails/railtie'

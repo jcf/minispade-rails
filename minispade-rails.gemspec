@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/keithpitt/minispade-rails"
   s.summary     = %q{Compile your javascript into minispade modules using the asset pipeline}
 
-  s.add_development_dependency "rails", ["~> 3.1"]
+  s.add_development_dependency 'rails', ['~> 4.0.0']
 
   s.files = %w(README.md) + Dir["lib/**/*", "vendor/assets/**/*"]
 
